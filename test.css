@@ -1,0 +1,124 @@
+body {
+  /*font-family:  garamond;*/
+  background-color: bisque;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #660000;*/
+  margin-bottom: 2%;
+}
+
+li {
+  float: left;
+}
+
+.otherNav {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    background-color: #660000
+    /*padding: 14px 16px;*/
+    /*text-decoration: none;*/
+}
+
+li a:hover:not(.active) {
+    background-color: #ff6600;
+    color: aqua;
+}
+
+li a:hover {
+    border-color: : #ff6600;
+    color: aqua;
+
+}
+
+button:hover{
+  background: -webkit-linear-gradient(top,#660000 ,#ff6600 100%);
+  color: white;
+}
+
+select {
+  background-color: #660000;
+  color: white;
+}
+
+.active {
+    background-color: #ff6600;
+    color: #660000
+}
+
+.buttons {
+  background: -webkit-linear-gradient(top,#ff6600 0,#660000 100%);
+    /*background: -o-linear-gradient(top,#337ab7 0,#265a88 100%);*/
+     /*background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#265a88));*/
+    background: linear-gradient(to bottom,#ff660 0,#ff660 100%);
+  border-color: #660000;
+  background-color: #ff6600;
+  /*color: maroon;*/
+  /*box-shadow: inset 0 0 0 1px #27496d;*/
+  /*border: none;*/
+  /*border-radius: 15px;*/
+  /*font-family: garamond;*/
+  /*font-size: 16px;*/
+}
+
+/*.buttons:hover {
+  background-color: aqua;
+
+}*/
+
+.maroonBackground{
+  background-color: #660000;
+}
+
+.maroon{
+  color: #660000;
+}
+
+.orange{
+  color: #ff6600
+}
+
+#searchType {
+  color: white;
+  /*display: inline;*/
+  /*margin-right: 1%;*/
+  background-color: #660000;
+  /*background: transparent;*/
+  /*width: 268px;*/
+  /*padding: 5px;*/
+  /*font-size: 16px;*/
+  /*line-height: 1;*/
+  /*border: 0;*/
+  /*border-radius: 0;*/
+  he/ight: 34px;
+  /*-webkit-appearance: none;*/
+}
+
+#searchBar {
+  color: aqua;
+  /*margin-right: 1%;*/
+  /*margin-left: -1%;*/
+
+  /*width: 65%;*/
+  /*padding-right: 45%;*/
+  border-radius: 5px;
+  border: 1px solid #660000;
+    /*border-radius: 5px;*/
+    box-shadow: 7px 0 20px 5px #660000;
+    text-indent: 5px;
+    background-color: black;
+}
+
+#topNav {
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
